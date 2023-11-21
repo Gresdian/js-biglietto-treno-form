@@ -21,3 +21,8 @@ Nota:
 Se non vi sentite particolarmente creativi, questa potrebbe essere un’implementazione da seguire per il secondo milestone. Potete scegliere di implementare una soluzione completamente diversa oppure simile, ma in ogni caso cercate di farla vostra.
 
 
+1 - creare casella di input che permetta all'utente di inserire il numero di km che vuole percorrere.
+2 - creare casella di input che permetta all'unteente di inserire la sua età.
+3 -inserire istruzione condizionale per calcolo biglietto che permetta di calcolare un eventuale sconto per i minorenni e per gli over 65 ripettivamente del 20% e 40%.
+3.1 - creare button che permetta il calcolo con i relativi dati inseriti.
+4 - creare un layout con il rispettivo biglietto con costo esatto ed eventuale sconto applicato.
