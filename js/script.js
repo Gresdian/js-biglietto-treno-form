@@ -1,4 +1,4 @@
-const button = document.querySelector('.btn');
+const button = document.getElementById('calc');
 
 
 button.addEventListener('click', function(){
@@ -20,6 +20,20 @@ button.addEventListener('click', function(){
         console.log(ticket, 'paghi tariffa intera');
     }
     
-    let n = ticket.toFixed(2)
+    let n = ticket.toFixed(2);
     document.getElementById("cost").innerHTML = n;
+    document.getElementById("cost").innerHTML = `Il prezzo del biglietto finale è ${n}` + "€";
 });
+
+
+const button2 = document.getElementById('button2');
+
+button.addEventListener('click', function(){
+    let nome = document.getElementById('name').value;
+    let cognome = document.getElementById('surname').value;
+
+    document.getElementById('show').innerHTML = nome + cognome + n + "€"
+})
+
+
+

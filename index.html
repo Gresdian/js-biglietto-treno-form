@@ -8,19 +8,51 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div class="container my-5">
+    <div class="container">
         <div class="row">
-            <div class="col-4">
+            <div class="col-12">
+                <h1 class="title text-center my-4">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container p-3 my-5">
+        <div class="row text-center g-5 data-bg rounded-4">
+            <div class="col-5">
+                <input type="text" id="name" name="nome" placeholder="Nome" class="form-control">
+            </div>
+            <div class="col-5">
+                <input type="text" id="surname" name="cognome" placeholder="Cognome" class="form-control">
+            </div>
+            <div class="col-5">
                 <input type="number" id="km" name="km" placeholder="Km" class="form-control">
             </div>
-            <div class="col-4">
+            <div class="col-5">
                 <input type="number" id="age" name="età" placeholder="Età" class="form-control">
             </div>
-            <div class="col-4">
-                <button class="btn btn-dark">Calcola</button>
+            <div class="col-2">
+                <button id="calc" class="btn btn-dark btn-lg">Calcola</button>
             </div>
             <div class="col-12">
-                <h1>Il prezzo del biglietto è &euro; <span id="cost"></span></h1>
+                <button id="button2" class="btn btn-dark btn-lg my-3">Mostra biglietto</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col d-flex justify-content-center ">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="col-12 my-5">
+                                <h1 id="cost"></h1>
+                            </div>
+                      </div>
+                    </div>
+                  </div>
             </div>
         </div>
     </div>
